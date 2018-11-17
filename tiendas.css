@@ -1,0 +1,570 @@
+body{
+  
+    padding:0px;
+    margin:0px;
+    margin-top: 0%;
+   /*background-image: url("images/fondo5.jpg");
+   */
+   background-color: white;
+    background-size:100% 100%;
+}
+
+#cabeza{
+    width: 100%;
+    padding-top: 0%;
+    margin-top: 0%;
+    height: 650px;
+    color: white;
+    background-image: url("images/tnda.jpg");
+    background-repeat: no-repeat; 
+    background-size:1900px 1200px;   
+    background-position: center;
+}
+
+
+
+nav ul{
+ 
+    padding-top: 0px;
+    
+}
+
+
+.menuu{
+    width:70%;
+}
+.menunavul{
+    width: 100%;
+}
+
+.menunavul a{
+    padding: 2%;
+  
+}
+
+
+nav ul li a{
+    opacity: 5;
+    padding-top: 15px;
+    margin-top:24px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 17px;
+    padding:1.5em;
+    text-align: center;
+    color: rgb(226, 220, 220);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;         
+}
+
+nav ul li a:hover{
+    color:rgb(207, 203, 137); 
+}
+
+section{
+    width:100%;
+    height:100%;
+    
+}
+
+#p1{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin-top:20px;   
+    font-size:50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#999;
+    font-style: oblique;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    margin:auto;
+}
+
+#p2{
+    display: flex;
+    justify-content: left;
+    width:80%;
+    margin-top:20px;   
+    font-size:35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#999;
+    font-style: oblique;
+    font-weight: bold;
+   
+}
+
+#titulos
+{
+    font-size: 30px;
+    border-bottom:1px solid #999;
+    font-weight:bold;  
+    font-style:oblique;
+    color:#999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header{
+    position: fixed;
+    top:0;
+    z-index: 1;
+    background: rgba(172, 132, 54, 0.753); 
+    width: 100%;    
+}
+#menu{
+    display: flex;
+   
+    
+}
+
+
+.navmenu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    transition: all 0.5s ease;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    height:auto;        
+    transition: all 0.5s ease;
+    opacity: 0.7;           
+}
+
+.navmenu:hover{
+    opacity:1;
+}
+
+.navmenu #menu{
+       display: flex;    justify-content:space-around;
+}
+.navmenu .imagenlogo{
+    display: inline-block;
+    margin-right: 1em;
+
+
+}
+
+.navmenu .imagenlogo img{
+    transition: all 1s ease;
+    vertical-align: top;
+}
+.imagenlogo a img:hover{
+    height:110px;
+    width: 220px;   
+}
+
+.navmenu .btn-menu{
+
+    color:white;
+    display: none;
+    text-decoration: none;
+    font-size:1em;
+}
+
+.navmenu .imagenlogo a{
+    vertical-align: center;
+}
+
+.navmenu .imagenlogo i{
+    font-size: 40px;
+}
+
+
+.parrafo
+{
+    padding-top: 20px;
+    font-size:1.5em;
+    color:white;
+    text-align: justify;
+    display: inline;
+    padding-bottom: 2px;
+    text-decoration: none;
+}   
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: #333;
+    background-color:#333;
+    height: auto;
+    width: 100%;
+    
+}
+
+
+.contenedor2{
+    display: flex;
+    justify-content: center;  
+    margin-top: 0PX;
+    height: auto;
+    padding-bottom: 1%;
+    
+}      
+.contenedor2 > div {
+    
+    width:650px;
+    height: auto;
+    margin-top: 15px;    
+    text-align: left; 
+    font-size: 15px;    
+    color:#ccc;
+    
+      
+}
+footer .contenedor2 > div ul{
+    list-style: none; 
+    
+}
+
+footer .contenedor2 > div ul li{
+
+    text-decoration: none;
+    font-size:13px;
+
+    color:#999;
+ 
+
+}
+footer .contenedor2 > div ul li a {
+
+    text-decoration: none;
+    font-size:13px;
+    transition: all 0.4s ease;
+    color:#999;
+}
+
+footer .contenedor2 > div ul li a:hover {
+
+    text-decoration: none;
+    font-size:13px;
+    
+    color:white;
+}
+
+
+
+#titulo2{
+    font-size:20px;
+    font-weight: bold;
+    margin:0%;
+    text-align: center;
+
+}
+
+.parrafo2
+{
+    font-size:18px;
+    line-height: 25px;
+    font-style: oblique;
+    color:#ccc;
+    text-align: justify;
+    display: inline;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 585px) {
+    
+    header .navmenu{
+        flex-direction: column;
+    }
+
+    header .navmenu .imagenlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+    }
+
+    header .navmenu .imagenlogo .btn-menu    {
+        display: inline-block;
+        color: #333;
+    }
+
+    header .navmenu .menunvul{
+        widows: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+   
+   
+    .contenedor2{    
+         display:flex;
+        flex-direction: column;    
+    }
+    .contenedor2 > div{
+        width: 100%;    
+        display:flex;
+       flex-direction: column;    
+   }    
+   
+   
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    .parrafo2{
+     flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+
+    header .navmenu{
+        flex-direction: column;
+    }
+
+    header .navmenu .imagenlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+    }
+
+    header .navmenu .imagenlogo .btn-menu    {
+        display: inline-block;
+        color: #333;
+    }
+
+    header .navmenu .menunvul{
+        widows: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin:auto;
+        
+    }
+    .contenedor > div{
+     width: 40%;
+    }
+    .contenedor2{
+     
+         display:flex;
+        flex-direction: column;
+     
+    }
+    .contenedor2 > div{
+        width: 100%;
+    }
+    .parrafo2{
+     flex-direction: column;
+    }   
+
+    .menunavul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+       
+    }
+    .menunavul li{
+        width: 100%;
+       text-align: center;
+        height: auto;
+        margin: auto;
+    }
+
+    .menunavul li a{
+        padding-bottom: 20%;
+        margin: auto;
+    }
+
+    .menuu{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+       
+    }
+
+    footer .contenedor2 > div ul li{
+        text-decoration: none;
+        font-size:3em;
+        color:#999; 
+    }
+
+    footer .contenedor2 > div ul li a {
+
+        text-decoration: none;
+        font-size:3em;
+        transition: all 0.4s ease;
+        color:#999;
+       
+    }
+
+    footer .contenedor2 > div ul li a:hover {
+
+        text-decoration: none;
+        font-size:1em;
+        transition: all 0.4s ease;
+        color:#999;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    header .navmenu{
+        flex-direction: column;
+    }
+
+    header .navmenu{
+        flex-direction: column;
+    }
+
+    header .navmenu .imagenlogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1em;
+    }
+
+    header .navmenu .imagenlogo .btn-menu    {
+        display: inline-block;
+        color: white;
+        vertical-align: center;
+        padding-top: 1%;
+        font-size: .5em;
+    }
+    .menunavul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 5%;
+       
+    }
+    .menunavul li{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .menunavul li a{
+        padding-bottom: 20%;
+        margin: auto;
+    }
+
+    .menuu{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+body{
+    margin: auto;
+}
+
+.footer{
+    
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+   
+}
+
+
+.parrafo{
+    display:flex;    
+}
+.logox{
+    width: 25%;
+    height:auto;
+    margin:0;  
+    display: flex;
+align-items: center;
+align-content: center;
+}
+p{
+    padding-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    line-height: 50px;
+    font-size: 2em;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    transition: all 1s ease;
+}
+
+.imagen
+{
+display: flex;
+align-items: center;
+align-content: center;
+text-justify: center;
+}
+
+.logox{
+    margin:auto;
+}
+
+
+.headroom
+{
+    transition: transform .3s ease;
+}
+
+.headroom--pinned{
+    transform:translateY(0%);
+}
+
+.headroom--unpinned{
+    transform:translateY(-100%);
+}
+
+.titulo3{
+    padding-top: 1%;
+    width: 80%;
+    text-align: left;
+    margin:auto;
+}
+
+.contenedor{
+    margin: auto;
+    width:80%;    
+    height: auto;
+    display: flex;
+    justify-content:center;
+}
+
+.contenedor iframe{
+    width:70%;
+    
+}
